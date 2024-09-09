@@ -1,0 +1,122 @@
+:root {
+  --primary-black: #000000;
+  --primary-neutral: #404040;
+  --primary-white: #ffffff;
+
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-500: #71717a;
+  --zinc-800: #27272a;
+
+  --error: #ef4444;
+
+  font-size: 16px;
+}
+
+body {
+  font-family: Sora, sans-serif;
+}
+
+.display-text {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.outlined {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke: 1.4px black;
+}
+
+.sub-heading {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.heading-h1 {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+.heading-h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.heading-h3 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.heading-h4 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.heading-h5 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.heading-h6 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.paragraph-1 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.paragraph-2 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.paragraph-3 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.button-text {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.button-text-2 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.underlined {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-decoration: underline;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+@media screen and (min-width: 992px) {
+  .outlined,
+  .display-text {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .outlined {
+    -webkit-text-stroke-width: 2px;
+  }
+}
