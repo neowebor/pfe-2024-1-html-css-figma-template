@@ -1,0 +1,72 @@
+.about-me-section {
+  padding: 44px 0 40px;
+}
+
+.about-me-section-content {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-me-section-image {
+  width: 336px;
+}
+
+.about-me-section-heading {
+  padding-bottom: 20px;
+}
+
+.about-me-section-text {
+  color: var(--zinc-500);
+}
+
+@media screen and (min-width: 380px) and (max-width: 1200px){
+  .about-me-section-text {
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+  .about-me-section-image-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me-section-heading {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-me-section-image {
+    width: 525px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-me-container {
+    display: flex;
+    gap: 80px;
+  }
+
+  .about-me-section {
+    padding: 60px 0;
+  }
+
+  .about-me-section-content {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .about-me-section-content {
+    padding-top: 20px;
+  }
+}
+
+
+
+
+
+
